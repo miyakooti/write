@@ -1,0 +1,267 @@
+
+header li {
+  list-style:none;
+  float:right;
+  padding:25px;
+  position:relative;
+  top:-15px;
+}
+.adjust {
+  position:relative;
+  top:-27px;
+}
+body {
+  font-family: Georgia, 游明朝, YuMincho, "Hiragino Mincho ProN", Meiryo, serif;
+  margin:0;
+}
+header p{
+  color:gray;
+}
+.title {
+  width:300px;
+}
+header {
+  display:flex;
+  position:relative;
+}
+header ul{
+  position:absolute;
+  right:0;
+  margin-top:70px;
+}
+.wrapper {
+  margin:30px 7%;
+}
+.fa-angle-down {
+  position:relative;
+  left:3px;
+  top:3px;
+}
+.main-img-container img{
+  width:100%;
+  margin:50px 0;
+}
+main-img-container {
+  text-align:center;
+}
+.main-img-container h2 {
+  color:gray;
+  font-size:23px;
+  font-family: Georgia, 游明朝, YuMincho, "Hiragino Mincho ProN", Meiryo, serif;
+  font-weight:normal;
+  line-height:30px;
+  margin:50px 0;
+}
+.content {
+  display:flex;
+  width:100%;
+  margin-top:40px;
+}
+.day {
+  width:32%;
+  margin-top:13px;
+}
+.message-container {
+  width:70%;
+}
+.message-container p, .day {
+  color:gray;
+  font-size:17px;
+  line-height:27px;
+}
+.message-title {
+  font-size:22px;
+}
+.btns {
+  display:flex;
+  margin-left:31%;
+  margin-bottom:80px;
+}
+.btns .next {
+  width:80px;
+}
+.btn {
+  border:1px solid rgba(128, 128, 128, 0.616);
+  width:40px;
+  height:40px;
+  text-align:center;
+  line-height:38px;
+  margin-right:20px;
+  margin-top:40px;
+  color:gray;
+}
+.message-wrapper {
+  border-bottom:1px solid rgba(128, 128, 128, 0.616);
+  margin-bottom:50px;
+}
+.photo img{
+  width:100px;
+  border-radius:50%;
+  margin-right:20px;
+}
+.names {
+  padding-top:25px;
+}
+body .names p {
+  color:black;
+  font-size:20px;
+}
+.fas, .fab{
+  color:gray;
+  font-size:23px;
+  margin-right:12px;
+}
+.introduce {
+  width:27%;
+  margin-right:80px;
+}
+.intro-upper {
+  display:flex;
+}
+.miss p {
+  color:gray;
+  font-size:17px;
+  margin:3px;
+}
+.miss h1 {
+  margin-bottom:20px;
+}
+footer {
+  display:flex;
+  border-bottom:1px solid rgba(128, 128, 128, 0.349);
+  padding:50px 0;
+}
+.footer-right {
+  width:25%;
+  margin-right:50px;
+}
+footer h1{
+  font-size:17px;
+}
+.category {
+  width:20%;
+}
+.search{
+  border:1px solid rgba(128, 128, 128, 0.349);
+  width:100%;
+  margin-top:90px;
+}
+.recent-post {
+  width:25%;
+}
+.line span{
+  border-bottom:1px solid rgba(128, 128, 128, 0.349);
+}
+.last {
+  padding:60px 0;
+  display:flex;
+  color:gray;
+}
+.last span {
+  color:rgb(65, 64, 64);
+}
+.copyright{
+  margin:13px 12%;
+}
+.last .fab, .fas{
+padding:10px;
+}
+.last .sns {
+  width:200px;
+}
+.fa-grip-lines:before {
+  display:none;
+}
+.sns .fas:hover{
+  color:rgb(46, 45, 45);
+}
+.sns .fab:hover{
+  color:rgb(46, 45, 45);
+}
+.jquery-box {
+  display:none;
+  position:absolute;
+  top:0;
+  left:0;
+  background-color:rgba(253, 253, 253, 0.616);
+  width:100%;
+  height:100%;
+  position:fixed;
+  text-align:center;
+  padding:114px 0;
+}
+.jquery-box h1 {
+  font-size:20px;
+}
+.jquery-box p {
+  font-size:15px;
+}
+.jquery-box span{
+  position:absolute;
+  top:-3px;
+  right:15px;
+  font-size:50px;
+  color:gray;
+}
+
+
+
+
+
+
+
+@media screen and (max-width:768px) {
+
+.title p{
+  margin:0;
+}
+.title h1{
+  margin:0;
+}
+
+.wrapper {
+  margin:60px 3%;
+}
+header ul {
+  display:none;
+}
+.content {
+  flex-direction:column;
+}
+.message-title, .day {
+  margin:0;
+}
+.btn {
+  display:none;
+}
+.next {
+  display:block;
+}
+footer {
+  flex-direction:column;
+}
+.miss {
+  width:100%;
+  margin-bottom:80px;
+}
+.last {
+  flex-direction:column;
+}
+.copyright{
+  margin:0;
+  font-size:14px;
+}
+.message-container {
+  width:100%;
+}
+.btns {
+  margin-left:0;
+}
+.fa-grip-lines:before{
+display:block;
+position:absolute;
+top:-46px;
+right:7px;
+font-size:30px;
+}
+}
